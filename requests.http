@@ -1,0 +1,14 @@
+
+POST http://localhost:4000/login
+
+Content-Type: application/json
+{
+    "username":"osku"
+}
+
+####
+
+GET  http://localhost:3000/posts HTTP/1.1
+
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDYxNTIyOTgsImV4cCI6MTY0NjE1Mjg5OH0.4IkNrdWFr07TgKJEBHvWmgIWDPhdhPpEmDrdSvU12nQ
